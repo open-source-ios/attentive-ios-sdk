@@ -20,7 +20,8 @@ let package = Package(
         .target(
             name: "attentive-ios-sdk",
             dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            publicHeadersPath: "Framework"
             ),
         .testTarget(
             name: "attentive-ios-sdkTests",
